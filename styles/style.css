@@ -1,0 +1,40 @@
+body, html {
+    background-color: rgb(15, 48, 43);
+    display: block;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(90, 79, 79);
+}
+
+.header {
+    padding: 3cm;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(6, 179, 179);
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+    display: block;
+    border: 1px solid rgb(15, 38, 43);
+    text-align: center;
+    width: 82.5%;
+    border-radius: 8px;
+    background-image: url("../imgs/bluecircuit.jpg");
+    height: 50vh;
+}
+
+.imageandlogo {
+    background-color: rgb(15, 48, 43);
+    width: 40vw;
+    border-radius: 8px;
+    height: 60vh;
+}
+
+.logo {
+    width: 20vw;
+    background-color: rgb(15, 48, 43);
+}
