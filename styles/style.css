@@ -30,6 +30,26 @@ body, html {
     height: 50vh;
 }
 
+.imageandlogo {
+    position: relative;
+    left: -100%;
+    animation: slideInFromLeft 2s ease-out forwards;
+}
+
+
+@keyframes slideInFromLeft {
+    0% {
+        left: -100%;
+        opacity: 0;
+    }
+    100% {
+        left: 0;
+        opacity: 1; 
+    }
+}
+
+
+
 .ourteam {
     float: left;
 }
@@ -109,4 +129,42 @@ button {
 .logo {
     width: 20vw;
     background-color: rgb(15, 48, 43);
+}
+
+.footer {
+    margin-top: 100px;
+    justify-content: left;
+    justify-self: left;
+    color: rgb(6, 179, 179);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    display: flex;
+}
+
+.footer h4 {
+    color: white;
+}
+
+.footer a {
+    color: rgb(6, 179, 179);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #337ab7;
+    text-decoration: underline;
+}
+
+.bluebox {
+    background-color: rgb(0, 123, 255);
+    height: 10vh;
+    width: 98vw;
+}
+
+.social {
+    margin-left: 30px;
+}
+
+.links {
+    margin-right: 30px;
 }
