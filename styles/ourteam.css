@@ -1,0 +1,78 @@
+body, html {
+    background-color: rgb(15, 38, 43);
+    display: block;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(15, 38, 43);
+    color: white;
+    /* color: rgb(6, 179, 179); */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: rgb(6, 179, 179);
+}
+
+.footer {
+    margin-top: 100px;
+    justify-content: left;
+    justify-self: left;
+    color: rgb(6, 179, 179);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    display: flex;
+}
+
+.footer h4 {
+    color: white;
+}
+
+.footer a {
+    color: rgb(6, 179, 179);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #337ab7;
+    text-decoration: underline;
+}
+
+.bluebox {
+    background-color: rgb(0, 123, 255);
+    height: 10vh;
+    width: 98vw;
+}
+
+.social {
+    margin-left: 30px;
+}
+
+.links {
+    margin-right: 30px;
+}
+
+.team {
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.header img {
+    width: 1000px;
+    border-radius: 3px;
+    margin-right: 12px;
+}
+
+.team img {
+    float: left;
+    width: 200px;
+    border-radius: 3px;
+    margin-right: 12px;
+}

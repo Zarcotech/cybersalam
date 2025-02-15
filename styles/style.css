@@ -170,6 +170,12 @@ button {
     margin-right: 30px;
 }
 
+.team {
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
 .team img {
     float: left;
     width: 200px;
