@@ -62,12 +62,15 @@ h1 {
     text-align: center;
     justify-content: center;
     justify-items: center;
+    display: block;
 }
 
 .header img {
     width: 1000px;
     border-radius: 3px;
-    margin-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    display:  block;
 }
 
 .team img {
@@ -75,4 +78,8 @@ h1 {
     width: 200px;
     border-radius: 3px;
     margin-right: 12px;
+}
+
+.member {
+    margin-top: 10px;
 }
